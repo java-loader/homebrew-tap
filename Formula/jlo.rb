@@ -1,14 +1,14 @@
 # The Homebrew formula, as the release workflow renders it into
-# java-loader/homebrew-tap: 0.9.0 and 0947ec15a4deec73c000ee30b56f6fd3dbf56e601747f52d899c5a93ea7c0fcd are filled in from the
+# java-loader/homebrew-tap: 0.9.1 and 04c6c5bd2d59d6d34a83c01e86d42d966e79e430c4949c02fa96a56a5e78f26b are filled in from the
 # release. It lives here, not in the tap, because it calls the binary's hidden
 # install verb, whose arguments change with the binary.
 class Jlo < Formula
   desc "Install and switch Eclipse Temurin JDKs by major version"
   homepage "https://github.com/java-loader/jlo"
-  url "https://github.com/java-loader/jlo/releases/download/jlo-bin-v0.9.0/jlo-macos-arm64.tar.gz"
+  url "https://github.com/java-loader/jlo/releases/download/jlo-bin-v0.9.1/jlo-macos-arm64.tar.gz"
   # Spelled out: brew would read "64" from the file name.
-  version "0.9.0"
-  sha256 "0947ec15a4deec73c000ee30b56f6fd3dbf56e601747f52d899c5a93ea7c0fcd"
+  version "0.9.1"
+  sha256 "04c6c5bd2d59d6d34a83c01e86d42d966e79e430c4949c02fa96a56a5e78f26b"
   license "MIT"
 
   depends_on arch: :arm64
